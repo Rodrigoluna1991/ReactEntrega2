@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+.navbar .logo a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .search-container input {
+  padding: 8px;
+  width: 300px;
+  border-radius: 4px;
+  border: none;
+}
+
+.navbar .categories ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .categories li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar .categories li a:hover {
+  color: #ff9900;
+}
+
+
+
+
+
+  
